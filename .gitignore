@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private or generated data
+data/
+private_data/
+work/
+high_mount/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+
+# Large reconstruction / model artifacts
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.ply
+*.npy
+*.npz
+*.db
+*.db-shm
+*.db-wal
+
+# Generated metadata that may contain source paths
+samples.json
+pairs*.json
+depth_quality/

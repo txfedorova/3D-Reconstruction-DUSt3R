@@ -1,0 +1,5 @@
+model,epochs,mae,rmse,absrel,delta1
+pretrained,0,3.7889,6.3441,0.43,0.4326
+heads_only,16,3.6185,6.2122,0.4086,0.4642
+heads_only,20,3.591,6.1891,0.4054,0.4695
+heads_only,24,3.5793,6.1773,0.4043,0.4714
